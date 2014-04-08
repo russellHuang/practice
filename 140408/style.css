@@ -1,0 +1,48 @@
+
+
+
+/* ----------------------- */
+
+
+#top_ver_words {
+	width: 50%;
+	margin: 0 auto;
+	
+}
+
+.word {
+	display: inline;
+}
+
+#ver_words_1 {
+	-webkit-writing-mode: vertical-rl;
+	display: inline;
+}
+
+#ver_words_2 {
+	-webkit-writing-mode: vertical-rl;
+	display: inline;
+}
+
+#ver_words_3 {
+	-webkit-writing-mode: vertical-rl;
+	display: inline;
+}
+
+#ver_words_4 {
+	-webkit-writing-mode: vertical-rl;
+	display: inline;
+}
+
+
+
+
+img {
+	width: 400px;
+	height: 400px;
+	background-color: blue;
+}
+
+#square {
+	text-align: center;
+}
