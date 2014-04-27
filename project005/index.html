@@ -5,25 +5,55 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link href="style.css" rel="stylesheet">
         <title>My Chrome Page</title>
+        
+        
+		<script>
+			function startTime()
+			{
+			var today=new Date();
+			var h=today.getHours();
+			var m=today.getMinutes();
+			var s=today.getSeconds();
+			// add a zero in front of numbers<10
+			m=checkTime(m);
+			s=checkTime(s);
+			document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+			t=setTimeout(function(){startTime()},500);
+			}
+			
+			function checkTime(i)
+			{
+			if (i<10)
+			  {
+			  i="0" + i;
+			  }
+			return i;
+			}
+		</script>
     </head>
-    <body>
-		<div>
-			<p id="apps">Apps</p>
-			<p id="city_name">Taipei City</p>
+    
+    <body onload="startTime()">
+    	
+		<div id="top_section">
+			<strong id="apps">Apps</strong>
+			<div id="top_section_right">
+				<strong id="temperture">27°</strong>
+				<p id="city_name">TAIPEI CITY</p>
+			</div>	
 		</div>
 		
-		<div style="margin: 15px 0px 0px; display: inline-block; text-align: center; width: 200px;">
-			<noscript>
-				<div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: transparent;">
-				<a href="http://localtimes.info/Asia/Taiwan/Taipei/" style="text-decoration: none; font-size: 13px; color: rgb(0, 0, 0);">
-				<img src="http://localtimes.info/images/countries/tw.png"="" border=0="" style="border:0;margin:0;padding:0"=""> Taipei</a></div></noscript><script type="text/javascript" src="http://localtimes.info/clock.php?continent=Asia&country=Taiwan&city=Taipei&cp1_Hex=000000&cp2_Hex=FFFFFF&cp3_Hex=000000&fwdt=200&ham=1&hbg=1&hfg=0&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=1000">
-			</script>
-		</div>
-		
-		<p>Good afternoon, Russell</p>
-		<p>What's your main focus for today?</p>
-		<p>Everything around you that you call life was made up by people, and you can change it.</p>
-		<p></p>
+		<div id="main_section">
+			
+			<div id="clock">	
+				<div id="txt"></div>
+			</div>
+
+			
+			<p id="greeting">Good afternoon, Russell</p>
+			<p id="question">What's your main focus for today?</p>
+			<input id="input"></input>
+			<p id="statement">Everything around you that you call life was made up by people, and you can change it.</p>
 		
     </body>
 </html>
+	
