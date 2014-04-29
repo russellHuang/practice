@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="style.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+		
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+		</noscript>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Fullscreen Slit Slider with CSS3 and jQuery" />
+        <meta name="keywords" content="slit slider, plugin, css3, transitions, jquery, fullscreen, autoplay" />
+        <meta name="author" content="Codrops" />
+		
+		<title>Kii Cloud</title>
+    </head>
+    <body>
+        
+        <div id="header">
+			<a href=""><img id="logo" src="image/kii-logo-small.png"></a>
+			
+			<span id="feature"><a href="" class="menu" id="feature-text">功能</a></span>
+			<span id="pricing"><a href="" class="menu" id="pricing-text">報價</a></span>
+			<span id="document"><a href="" class="menu" id="document-text">文擋</a></span>
+			<span id="blog"><a href="" class="menu" id="blog-text">部落格</a></span>
+			
+			<span id="header-right">
+			<a href="" class="menu-button" id="signin">登入</a>
+			<a href="" class="menu-button" id="signup">註冊</a>
+			</span>
+		</div>
+        
+        
+        <div class="container demo-2">
+			<!--/ Codrops top bar -->
+            <div id="slider" class="sl-slider-wrapper">
+
+				<div class="sl-slider">
+				
+			<!--/ Slider01 -->
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-1"></div>
+							<h1 id="slide-slogan1">節省開發時間</br>接觸到更多用戶</br>創造更多收益</h1>
+							<p id="slide-slogan2">體驗 Kii Cloud 所提供的強大服務</p>
+							<p id="slide-slogan3">APP 後端服務整合<p>
+							<img id="slide-image" src="image/slide-image01.png">
+						</div>
+						
+					</div>
+					
+			<!--/ Slider02 -->
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-1"></div>
+							<h2>Regula aurea.</h2>
+							<blockquote><p>Until he extends the circle of his compassion to all living things, man will not himself find peace.</p><cite>Albert Schweitzer</cite></blockquote>
+						</div>
+					</div>
+					
+			<!--/ Slider03 -->					
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-1"></div>
+							<h2>Dum spiro, spero.</h2>
+							<blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
+						</div>
+					</div>
+					
+			<!--/ Slider04 -->
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-1"></div>
+							<h2>Donna nobis pacem.</h2>
+							<blockquote><p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite>Michael Klaper M.D.</cite></blockquote>
+						</div>
+					</div>
+					
+			<!--/ Slider05 -->
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-1"></div>
+							<h2>Acta Non Verba.</h2>
+							<blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi Clarke</cite></blockquote>
+						</div>
+					</div>
+					
+				
+				</div>
+				
+			<!-- /sl-slider -->
+				<nav id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</nav>
+
+			</div>
+			
+			<div id="action">
+				<p id="action-slogan1">省去後端伺服器的開發負擔</p>
+				<a href="" class="menu-button" id="action-button">立即免費試用</a>
+				<p id="action-slogan2">為您的手機APP如虎添翼</p>
+			</div>
+	    </div>
+    <!-- Page Main Content -->
+				<div id="section01">
+			<span class="section-small" id="section01-left">
+				<img src="image/service-user-management.png">
+			</span>
+			<span class="section-large" id="section01-right">
+				<h2>用户管理</h2>
+				<h4>不需要设置服务器或编写任何一个 API，即可管理您的用户。<h4>
+				<p>现在你可以在短短几分钟内为你的 App 添加一个后端服务。Kii Cloud 通过为你提供一个可扩展的后端服务，来帮助你节省大量的时间和金钱。因为不需要写一行服务端的代码，你不必去招聘（或者变成）一个服务端工程师或者 DBA。我们会保证提供安全，可靠以及可扩展的服务，这样你只需要专注于优化你的 App，改善用户体验以及在 App Store 的投放策略等。</p>
+				<a class="button" href="">了解更多</a>				
+			</span>
+		</div>
+		
+		<div id="section02">
+			<span class="section-large" id="section02-left">
+				<h2>数据管理</h2>
+				<h4>在基础架构上花费更少的时间，</br>即可利用更多的时间改善您应用程序的用户体验。</h4>
+				<p>现在你可以在短短几分钟内为你的 App 添加一个后端服务。Kii Cloud 通过为你提供一个可扩展的后端服务，来帮助你节省大量的时间和金钱。因为不需要写一行服务端的代码，你不必去招聘（或者变成）一个服务端工程师或者 DBA。我们会保证提供安全，可靠以及可扩展的服务，这样你只需要专注于优化你的 App，改善用户体验以及在 App Store 的投放策略等。</p>
+				<a class="button" href="">了解更多</a>		
+			</span>	
+			<span class="section-small" id="section02-right">
+				<img id="section02-image" src="image/service-database-management.png">
+			</span>
+		</div>
+		
+		<div id="section03">
+			<span class="section-small" id="section03-left">
+				<img src="image/service-make-money.png">
+			</span>
+			<span class="section-large" id="section03-right">
+				<h2>赚取利润</h2>
+				<h4>厌倦了低点击转化率？获取您应得的利润吧。</h4>
+				<p>现在你可以在短短几分钟内为你的 App 添加一个后端服务。Kii Cloud 通过为你提供一个可扩展的后端服务，来帮助你节省大量的时间和金钱。因为不需要写一行服务端的代码，你不必去招聘（或者变成）一个服务端工程师或者 DBA。我们会保证提供安全，可靠以及可扩展的服务，这样你只需要专注于优化你的 App，改善用户体验以及在 App Store 的投放策略等。</p>
+				<a class="button" href="">了解更多</a>
+			</span>	
+		</div>
+		
+		<div id="partner">
+			<h4 id="partner-title">Kii Cloud 的部分使用者</h4>
+			<div id="partner-large">
+				<img class="partner-large-logo" src="image/partner-large01.png">
+				<img class="partner-large-logo" src="image/partner-large02.png">
+				<img class="partner-large-logo" src="image/partner-large03.png">
+				<img class="partner-large-logo" src="image/partner-large04.png">
+			</div>
+					
+			<div id="partner-small">
+				<img class="partner-small-logo" src="image/partner01.png">
+				<img class="partner-small-logo" src="image/partner02.png">
+				<img class="partner-small-logo" src="image/partner03.png">
+				<img class="partner-small-logo" src="image/partner04.png">
+				<img class="partner-small-logo" src="image/partner05.png">
+				<img class="partner-small-logo" src="image/partner06.png">
+				<img class="partner-small-logo" src="image/partner07.png">
+				<img class="partner-small-logo" src="image/partner08.png">
+				<img class="partner-small-logo" src="image/partner09.png">
+				<img class="partner-small-logo" src="image/partner10.png">
+				<img class="partner-small-logo" src="image/partner11.png">
+				<img class="partner-small-logo" src="image/partner12.png">
+				<img class="partner-small-logo" src="image/partner13.png">
+				<img class="partner-small-logo" src="image/partner14.png">
+				<img class="partner-small-logo" src="image/partner15.png">
+			</div>
+		</div>
+		
+		<div id="orangebar">
+		</div>
+		
+		<div id="footer">
+			<span id="footer-section01">
+				<img id="footer-logo" src="image/kii-logo-small.png">
+				<a class="footer-link" id="footer-link01" href="">功能</a>
+				<a class="footer-link" href="">報價</a>
+				<a class="footer-link" href="">文檔</a>
+				<a class="footer-link" href="">用戶回饋</a>
+				<a class="footer-link" href="">論壇</a>
+				<a class="footer-link" href="">部落格</a>
+			</span>
+			<span id="footer-section02">
+				<p class="footer-title">公司</p>
+				<a class="footer-link" id="footer-link02" href="">關於我們</a>
+				<a class="footer-link" href="">媒體與活動</a>
+				<a class="footer-link" href="">論壇</a>
+				<a class="footer-link" href="">合作夥伴</a>
+				<a class="footer-link" href="">工作機會</a>
+				<a class="footer-link" href="">聯絡我們</a>
+			</span>
+			<span id="footer-section03">
+				<p class="footer-title">產品</p>
+				<a class="footer-link" id="footer-link03" href="">Kii Cloud</a>
+				<a class="footer-link" href="">Kii Game Cloud</a>
+				<a class="footer-link" href="">A/B Testing</a>
+				<a class="footer-link" href="">Kii Analytsis</a>
+				<a class="footer-link" href="">Kii Capital</a>
+			</span>
+			<span id="footer-section04">
+				<p class="footer-title">熱門</p>
+				<a class="footer-link" id="footer-link04" href="">下載專區</a>
+				<a class="footer-link" href="">API支援</a>
+				<a class="footer-link" href="">Android SDK</a>
+				<a class="footer-link" href="">iOS SDK</a>
+			</span>
+		</div>
+       
+        <div id="copyright">
+			<p id="footer-copyright">2010 - 2014 Kii, All Rights Reserved.</p>
+			<img id="footer-kii-logo" src="image/kii-corporate-logo.png">
+		</div>
+         
+     <!-- Javacript -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slitslider.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+			
+				var Page = (function() {
+
+					var $nav = $( '#nav-dots > span' ),
+						slitslider = $( '#slider' ).slitslider( {
+							onBeforeChange : function( slide, pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							}
+						} ),
+
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slitslider.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slitslider.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+				/**
+				 * Notes: 
+				 * 
+				 * example how to add items:
+				 */
+
+				/*
+				
+				var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+				
+				// call the plugin's add method
+				ss.add($items);
+
+				*/
+			
+			});
+		</script>
+	</body>
+</html>

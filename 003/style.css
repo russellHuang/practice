@@ -1,0 +1,104 @@
+
+
+
+/* ----------------------- */
+
+
+#top_ver_words {
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px; 
+	margin-bottom:0;
+	display: flex;
+	position: relative;
+	top: 67px;
+
+}
+
+body {
+	margin-top: 0px
+}
+
+.word {
+	display: inline;
+}
+
+#ver_words_1 {
+	-webkit-writing-mode: vertical-rl;
+	display: inline;
+	margin-right: 12.5%;
+	margin-left: 12.5%;
+	font-size: 20px;
+}
+
+#ver_words_2 {
+	-webkit-writing-mode: vertical-rl;
+	display: inline;
+	margin-right: 5.5%;
+	margin-left: 12.5%;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+#ver_words_3 {
+	-webkit-writing-mode: vertical-rl;
+	display: inline;
+	margin-right: 12.5%;
+	margin-left: 12.5%;
+	font-size: 63px;
+}
+
+#ver_words_4 {
+	-webkit-writing-mode: vertical-rl;
+	display: inline;
+	margin-right: 6%;
+	margin-left: 12.5%;
+	font-size: 90px;
+}
+
+
+
+#square {
+	text-align: center;
+	position: relative;
+	top: -64px;
+	z-index:-1;
+}
+
+
+img {
+	width: 400px;
+	height: 400px;
+	background-color: blue;
+
+}
+
+#em_div{
+	text-align: left;
+	margin:21%;
+	position: absolute;
+	top: 0px;
+	left: -5px;
+}
+
+
+#em {
+	font-size: 500px;
+	margin: 0 0;
+	-webkit-transform:rotate(35deg);
+}
+
+
+#slogan_div {
+	position: absolute;
+	top: 472px;
+	left: 600px;
+}
+
+
+#slogan {
+	font-size: 24px;
+	line-height: 35px;
+}
+
