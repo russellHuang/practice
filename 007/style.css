@@ -1,0 +1,480 @@
+body {
+	font-family: 'Lato', 'sans-serif';
+	margin: 0px 0px;
+}
+
+h2 {
+	font-size: 35px;
+	margin: 0px;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 25px;
+	line-height: 32px; 
+	margin-top: 7px;
+	margin-bottom: 25px;
+	font-weight: 400;
+}
+
+p {
+	font-size: 16px;
+	line-height: 27px;
+	font-weight: 300;
+}
+
+
+.button {
+	color: #FFF;
+	text-decoration: none;
+	display: inline;
+	padding: 10px 20px;
+	margin-top: 40px;
+	border-radius: 4px;
+	background-color: #F3972B;
+	font-size: 16px;
+	position: relative;
+	top: 10px;
+}
+
+.button:hover {
+	color: #FFF;
+	text-decoration: none;
+	display: inline;
+	padding: 10px 20px;
+	margin-top: 15px;
+	border-radius: 4px;
+	background-color: #005783;
+	font-size: 16px;
+}
+
+#start {
+	background: url('image/bg.jpg');
+	height: 620px;
+}
+
+#header {
+	width: 100%;
+	height: 77px;
+	background: hsla(0, 100%, 100%, 0.12);
+	list-style-type: none;
+	margin: auto;
+	z-index: 10000;
+	list-style: none;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+	display: block;
+	text-align: center;
+	z-index: 0;
+}
+
+
+#logo {
+	margin-top: 15px;
+	margin-left: 55px;
+	float: left;
+}
+
+
+.menu {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+.menu:hover {
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 5px;
+}
+
+
+.container demo-2 {
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+}
+
+
+#feature {
+	display: inline;
+	height: 72px;
+	line-height: 74px;
+	padding: 0 21px;
+}
+
+#pricing {
+	display: inline;
+	height: 72px;
+	line-height: 74px;
+	padding: 0 21px;
+}
+
+#document{
+	display: inline;
+	height: 72px;
+	line-height: 74px;
+	padding: 0 21px;
+}
+
+#blog {
+	display: inline;
+	height: 72px;
+	line-height: 74px;
+	padding: 0 21px;
+}
+
+#feature-text {
+
+}
+
+
+#pricing-text {
+
+}
+
+#document-text {
+
+}
+
+
+#blog-text {
+
+}
+
+.menu-button {
+	color: #FFF;
+	text-decoration: none;
+	display: inline;
+	padding: 10px 20px;
+	border-radius: 4px;
+	background-color: #F3972B;
+	font-size: 16px;
+}
+
+
+
+
+
+#header-right {
+	height: 77px;
+	float: right;
+	margin-right: 33px;
+	padding-top: 27px;	
+}
+
+#signin {
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+#signin:hover {
+	background-color: #005783;
+	font-size: 16px;
+}
+
+#signup {
+	background-color: #666;
+	font-size: 16px;
+}
+
+#signup:hover {
+	background-color: #005783;
+	font-size: 16px;
+}
+
+
+#slider {
+	text: #fff;
+}
+
+
+#slide-slogan1 {
+	position: absolute;
+	top: 120px;
+	left: 116px;
+	color: #fff;
+	letter-spacing: -5px;
+	line-height: 80px;
+	font-size: 58px;
+	font-weight: 400;
+	z-index: 1;
+}
+
+#slide-slogan2 {
+	color: #fff;
+	position: absolute;
+	top: 410px;
+	left: 122px;
+}
+
+#slide-slogan3 {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 5px;
+	position: absolute;
+	top: 437px;
+	left: 122px;
+}
+
+#slide-image {
+	display: inline;
+	z-index: 0;
+	position: absolute;
+	top: 90px;
+	right: 95px;
+	
+}
+
+
+ 
+#action {
+	width: 101%;
+	height: 88px;
+	background: hsla(0, 100%, 100%, 0.05);
+	list-style-type: none;
+	margin: auto;
+	z-index: 10000;
+	list-style: none;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	text-align: center;
+	line-height: 4.55;
+	position: absolute;
+	top: 512px;
+	left: -8px;
+	z-index: 1;
+}
+
+#action-slogan1 {
+	display: inline;
+	color: #fff
+}
+
+#action-slogan2 {
+	display: inline;
+	color: #fff
+}
+
+ 
+#action-button {
+	background-color: #005783;
+	font-size: 20px;
+	margin: 0px 40px;
+	padding: 15px 40px; 
+	margin-right: 57px;
+}
+
+#action-button:hover {
+	background-color: #F2952A;
+	font-size: 20px;
+	margin: 0px 40px;
+	padding: 15px 40px; 
+	margin-right: 57px;
+}
+
+.section-large {
+	width: 55%;
+	padding: 75px;
+}
+
+
+.section-small {
+	width: 35%;
+	text-align: center;
+	padding-top: 75px;
+}
+
+#section01 {
+	width: 100%;
+	height: 470px;
+	background: #EEEEEF;
+	display: flex;
+
+}
+
+#section01-left {
+	float: left;
+	margin-left: 100px;
+}
+
+#section01-right {
+	float: right;
+	margin-right: 100px;
+}
+
+
+#section02 {
+	width: 100%;
+	height: 470px;
+	display: flex;
+}
+
+#section02-left {
+	float: left;
+	margin-left: 100px;
+}
+
+#section02-right {
+	float: right;
+	margin-right: 100px;
+}
+
+#section02-image {
+	display: inline;
+}
+
+#section03 {
+	width: 100%;
+	height: 470px;
+	background: #EEEEEF;
+	display: flex;
+}
+
+#section03-left {
+	float: left;
+	margin-left: 100px;
+}
+
+#section03-right {
+	float: right;
+	margin-right: 100px;
+}
+
+#partner {
+	width: 100%;
+	height: 340px;
+	text-align: center;
+}
+
+#partner-title {
+	margin-top: 90px
+}
+
+.partner-large {
+	display: block;
+	margin: 15px 0px; 
+	padding: 34px;
+}
+
+.partner-large-logo {
+	margin-top: 25px;
+	padding: 0px 17px;
+}
+
+.partner-small {
+	margin: 30px
+}
+
+.partner-small-logo {
+	margin-top: 30px;
+	padding: 0px 5px;
+	
+}
+
+#orangebar {
+	width: 100%;
+	height: 15px;
+	background: #EE922D;
+}
+
+#footer {
+	width: 100%;
+	height: 400px;
+	background: #03182E;
+	display: flex;
+	text-align: center;
+}
+
+.footer-title {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 74px;
+}
+
+
+.footer-link {
+	color: #fff;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: none;
+	display: block;
+	padding: 7px 0px;
+}
+
+.footer-link:hover {
+	color: #fff;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: underline;
+	display: block;
+	padding: 7px 0px;
+}
+
+
+#footer-section01 {
+	width: 20%;
+	margin-left: 200px;
+	text-align: left;
+}
+
+
+#footer-logo {
+	margin-top: 50px;
+}
+
+#footer-link01 {
+	margin-top: 30px;
+}
+
+#footer-section02 {
+	width: 20%;
+	text-align: left;
+}
+
+#footer-link02 {
+	margin-top: 30px;
+}
+
+#footer-section03 {
+	width: 20%;
+	text-align: left;
+}
+	
+#footer-link03 {
+	margin-top: 30px;
+}	
+
+#footer-section04 {
+	width: 20%;
+	text-align: left;
+}
+
+#footer-link04 {
+	margin-top: 30px;
+}
+
+#copyright {
+	width: 100%;
+	height:100px;
+	background: #03182E;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+}
+
+#footer-copyright {
+	float: left;
+	margin-left: 150px;
+	
+}
+
+#footer-kii-logo {
+	float: right;
+	margin-right: 150px;
+}
