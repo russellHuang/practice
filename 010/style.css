@@ -1,0 +1,19 @@
+body,html {
+	height: 100%
+}
+
+
+#white {
+	background: url('2.jpg');
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+}
+
+
+#black {
+	background: #000;
+	height: 500px;
+	z-index: 1;
+}
